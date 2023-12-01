@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Fotografia</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">FOTO FALANQUE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="#portfolio">Portfólio</a>
+       </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#about">Sobre</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#contact">Contato</a>
+        </li>
+         </ul>
+           </div>
+            </nav>
+
+  <!-- Jumbotron -->
+  <header class="jumbotron">
+    <h1 class="display-4">Capturando momentos, eternizando emoções</h1>
+  </header>
+
+  <!--Portfólio -->
+  <section id="portfolio" class="container">
+    <br>
+    <div class="row">
+      <!-- Imagem 1 -->
+      <div class="col-md-4 portfolio-item">
+        <img src="https://user-images.githubusercontent.com/151546833/285071579-b4964912-5734-47b6-8bae-aa8d0913a9e5.jpeg" alt="Imagem 1">
+      </div>
+      <!-- Imagem 2 -->
+      <div class="col-md-4 portfolio-item">
+        <img src="https://user-images.githubusercontent.com/151546833/285072006-789f9d09-66e0-490c-a4e2-c76541da7316.jpeg" alt="Imagem 2">
+      </div>
+      <!-- Imagem 3 -->
+      <div class="col-md-4 portfolio-item">
+        <img src="https://user-images.githubusercontent.com/151546833/285071895-66dc301f-1505-4f22-8804-24641845f9dd.jpeg" alt="Imagem 3">
+      </div>
+    </div>
+  </section>
+
+  <!--fotógrafo -->
+
+<section id="about" class="container about-section">
+  <h2 class="text-center mb-4">Sobre Mim</h2> <br><br><br>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="https://user-images.githubusercontent.com/151546833/285071415-c76b51a9-3bcd-430e-988b-0aa2187a6e45.jpeg" alt="Sobre Mim Foto">
+    </div>
+    <div class="col-md-8">
+      <!-- Descrição do fotógrafo -->
+      <p class="text-center increased-font"style="font-size: 25px;"> Minha jornada como fotógrafo começou em uma de minhas viagens, onde fiquei encantado com a beleza do local e quis levar às outras pessoas um pouco da minha visão do mundo e das pessoas. Foi através das fotos das minhas viagens tiradas pelo meu celular que uma amiga ficou encantada com as imagens, então me presenteou com uma câmera antiga que ela não utilizava mais. Foi aí que decidi fazer um curso de fotografia no Senac e vi um hobby se transformar em uma paixão, onde tento mostrar às pessoas o melhor delas e do mundo através do meu olhar por trás das lentes.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contatos -->
+  <section id="contact" class="container contact-section">
+    <h2 class="text-center mb-4">Contato</h2><br><br>
+    <p class="text-center increased-font"style="font-size: 25px;">Entre em contato conosco pelo WhatsApp:</p>
+    <p>
+      <p class="text-center increased-font"style="font-size: 25px;">
+        (17) 99739-4962
+      </a>
+    </p>
+    <br>
+    <p class="text-center increased-font"style="font-size: 25px;">Entre em contato conosco pelo Instagram:</p>
+   
+      <p class="text-center increased-font"style="font-size: 25px;">@olharmochileiro</p>
+      </a>
+    </p>
+    <div class="container comment-container">
+    
+    </div>
+  </section>
+
+</body>
+
+</html>

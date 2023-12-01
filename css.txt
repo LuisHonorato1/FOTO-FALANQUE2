@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Fotografia</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">FOTO FALANQUE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="#portfolio">Portfólio</a>
+       </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#about">Sobre</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#contact">Contato</a>
+        </li>
+         </ul>
+           </div>
+            </nav>
+
+  <!-- Jumbotron -->
+  <header class="jumbotron">
+    <h1 class="display-4">Capturando momentos, eternizando emoções</h1>
+  </header>
+
+  <!--Portfólio -->
+  <section id="portfolio" class="container">
+    <br>
+    <div class="row">
+      <!-- Imagem 1 -->
+      <div class="col-md-4 portfolio-item">
+        <img src="https://user-images.githubusercontent.com/151546833/285071579-b4964912-5734-47b6-8bae-aa8d0913a9e5.jpeg" alt="Imagem 1">
+      </div>
+  body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000102;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+
+.jumbotron {
+  background: url('https://user-images.githubusercontent.com/151546833/285073125-8ca708ac-e071-4084-8526-200b39ab722d.jpg') no-repeat center;
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 1.3s ease-in-out;
+  border: none;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1);
+}
+
+.about-section,
+.contact-section {
+  background-color: #ffffff;
+  padding: 50px 0;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section img {
+  max-width: 100%;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.comment-container {
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.comment img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.comment p {
+  margin-bottom: 10px; /* Adicione um valor específico aqui */
+}
+
+.comment p strong {
+  color: #007bff;
+}
+
+.footer {
+  background-color: #212529;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
